@@ -20,6 +20,8 @@ addEducationBtn.addEventListener('click', () => {
   educationContainer.appendChild(newField);
 });
 
+
+
 addWorkExperienceBtn.addEventListener('click', () => {
   const newField = document.createElement('input');
   newField.type = 'text';
@@ -73,4 +75,5 @@ form.addEventListener('submit', function(event: Event) {
   // Insert resume into output div
   resumeOutput.innerHTML = resumeHTML;
 });
+
 
